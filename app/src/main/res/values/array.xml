@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="session">
+        <item>session</item>
+        <item>2013-14</item>
+        <item>2014-15</item>
+        <item>2015-16</item>
+
+    </array>
+
+    <array name="year">
+        <item>year</item>
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+
+    </array>
+
+    <array name="semester">
+        <item>semester</item>
+        <item>1-1</item>
+        <item>1-2</item>
+        <item>2-1</item>
+        <item>2-2</item>
+        <item>3-1</item>
+        <item>3-2</item>
+        <item>4-1</item>
+        <item>4-2</item>
+    </array>
+
+    <array name="department">
+        <item>department</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>IPE</item>
+
+    </array>
+
+    <array name="course">
+        <item>Course</item>
+        <item>CSE-4201</item>
+        <item>CSE-1201</item>
+        <item>CSE-2201</item>
+
+    </array>
+
+</resources>

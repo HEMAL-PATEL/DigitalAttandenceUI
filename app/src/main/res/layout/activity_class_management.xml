@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009ACC"
+    android:orientation="vertical"
+    tools:context=".ui.class_management.ClassManagementActivity">
+
+    <TextView
+        android:id="@+id/text_view_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Session: 2013-14"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_course_code"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text_view_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Course Code: CSE-1201"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:id="@+id/text_view_course_name"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/text_view_course_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="Course Name: DLD"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        />
+
+    <LinearLayout
+        android:layout_below="@+id/text_view_course_name"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:mrl_rippleColor="#ff0000"
+        app:mrl_rippleOverlay="true">
+
+        <Button
+            android:id="@+id/button_take_attendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="Take Attendance"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:mrl_rippleColor="#ff0000"
+        app:mrl_rippleOverlay="true">
+
+        <Button
+            android:id="@+id/button_ct_marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="CT Marks"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:mrl_rippleColor="#ff0000"
+        app:mrl_rippleOverlay="true">
+
+        <Button
+            android:id="@+id/button_attendances"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="Attendances"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+
+    <com.balysv.materialripple.MaterialRippleLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:mrl_rippleColor="#ff0000"
+        app:mrl_rippleOverlay="true">
+
+        <Button
+            android:id="@+id/button_overall_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_border"
+            android:text="OverAll View"
+            android:textAllCaps="false"
+            android:textColor="#FFF" />
+    </com.balysv.materialripple.MaterialRippleLayout>
+    </LinearLayout>
+</RelativeLayout>

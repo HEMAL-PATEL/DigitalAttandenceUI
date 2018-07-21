@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Digital Attendence</string>
+    <string name="welcome_just">Welcome!! JUST</string>
+    <string name="save">Save</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_designation">Your Designation</string>
+    <string name="department">Department</string>
+    <string name="your_roll">Your Roll</string>
+    <string name="your_session">Your Session</string>
+    <string name="your_phone_number">Your Phone Number</string>
+    <string name="delete">delete</string>
+</resources>

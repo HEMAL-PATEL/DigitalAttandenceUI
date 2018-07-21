@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context=".ui.student_registration.StudentRegistrationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <EditText
+                android:id="@+id/editText_name"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="#14000000"
+                android:hint="@string/your_name"
+                android:imeOptions="actionNext"
+                android:inputType="textPersonName|textCapWords"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/editText_roll"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="#14000000"
+                android:hint="@string/your_roll"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/editText_session"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="#14000000"
+                android:hint="@string/your_session"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:theme="@style/EditTextTheme" />
+
+            <EditText
+                android:id="@+id/editText_phone_number"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="#14000000"
+                android:hint="@string/your_phone_number"
+                android:imeOptions="actionDone"
+                android:inputType="phone"
+                android:maxLines="1"
+                android:paddingBottom="10dp"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:textColor="@color/white"
+                android:theme="@style/EditTextTheme" />
+
+            <ImageView
+                android:id="@+id/finger_print"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_below="@+id/teacher_department"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@color/white"
+                android:src="@drawable/finger_print" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
